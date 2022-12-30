@@ -1,7 +1,11 @@
+import { Navigation } from './common/navigation/Navigation'
+import { PagesRoutes } from './common/pagesRoutes/PagesRoutes'
+
 function App() {
   return (
     <>
-      <h1 className="font-bold text-red-600">Hello app</h1>
+      <Navigation />
+      <PagesRoutes />
     </>
   )
 }
